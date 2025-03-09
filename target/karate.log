@@ -1,0 +1,647 @@
+17:00:22.251 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:00:22.251 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+17:00:24.040 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:24.040 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:24.040 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:24.040 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:24.040 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:24.751 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:24.751 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:24.751 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:24.751 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:24.751 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:25.212 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < content-type: application/json
+1 < x-request-id: b23c87ce-4d46-44e5-9894-e163e989d577
+1 < set-cookie: __Host-device_id=AQBrxZH5nAjKPJH7NGCqGe8uEUv7Ll1LJI0-FAZu7WtYKb8YBSPgV1UiYpJ_VnEv8L9QMXWA6iiqcNr5EwmWwNkr5KMr-Q1ZsD4;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: f24d9cfa375fa533
+1 < x-envoy-upstream-service-time: 9
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQBrxZH5nAjKPJH7NGCqGe8uEUv7Ll1LJI0-FAZu7WtYKb8YBSPgV1UiYpJ_VnEv8L9QMXWA6iiqcNr5EwmWwNkr5KMr-Q1ZsD4;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQCUWcuruJTrq1EWAYBnxZoAlCQ2yjdnxpINfLFSP5_TXQzQvNi2GAFh0AeTk2-xe6OSZRkevZQALzSmNBvhFkFGzZEDm_CgMtLbYRVXjzR53mhM2bb2E5yfeKzAKk45KVFf5IPdJpc","token_type":"Bearer","expires_in":3600}
+
+17:00:25.212 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 437
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < content-type: application/json
+1 < x-request-id: bceb818d-2648-4269-89d4-7454bb83232f
+1 < set-cookie: __Host-device_id=AQAn-EtcFYJylkzSH9OygwTNMcfon34_KfUDnT9VXvOotpV7TAxFv79t1737UUiAswBUsc3fnWuyA5FNrqPHRk5_dZs27Ely5yI;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: 1135390cdde3b3a1
+1 < x-envoy-upstream-service-time: 9
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQAn-EtcFYJylkzSH9OygwTNMcfon34_KfUDnT9VXvOotpV7TAxFv79t1737UUiAswBUsc3fnWuyA5FNrqPHRk5_dZs27Ely5yI;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQDxjr6DU6N7i2pzGU_k-h1Irxjb-d21SsCACkleH0cbk3vZi93wxOwSPJijsbfOErOYAiaP1bZP57taipkkSBRfNuOF5sD60MHpiPy4iTvGzJ82oTbidmUIEZleZXdQFs_pZUTmj0A","token_type":"Bearer","expires_in":3600}
+
+17:00:25.212 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 437
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < content-type: application/json
+1 < x-request-id: 80dcab18-a364-45f9-910f-42be85633fcd
+1 < set-cookie: __Host-device_id=AQBaWCjpO37rFRlJ3qaF7fj1iU3VkVRn3BdOG1soWtGssYI5gIVMyk0PGoMOh2yVJRIpXQzFtjO1Wew5sV5AYjni90ETeW4SbUU;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: 8c64ef38cba4efbc
+1 < x-envoy-upstream-service-time: 5
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQBaWCjpO37rFRlJ3qaF7fj1iU3VkVRn3BdOG1soWtGssYI5gIVMyk0PGoMOh2yVJRIpXQzFtjO1Wew5sV5AYjni90ETeW4SbUU;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQDb11NE6gaKiw9dGxEd_zSX4jPqkc1FM-81x9vED2Vb-GTf0Us1ZqsHBd8R4S0-UfUlo6V4sdJoZbRjDAuHygCq8fxbLWlBiN6vFYWu7aX0WokAbM56hzhHiPBgoyCkOJffT7ahHH8","token_type":"Bearer","expires_in":3600}
+
+17:00:25.212 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < content-type: application/json
+1 < x-request-id: 9f425030-1d0e-41db-9799-232ea870b555
+1 < set-cookie: __Host-device_id=AQAV9pmhlGY2z_ZHBxu_t-CjzguYtO-ha0hVyP5ZsZA1iEAzoNDw6mbYveG5uY2m_tYC81fePraR9utMvdp38Eaf0SC9sjBEnCM;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: 833cc7e16bf0b1e0
+1 < x-envoy-upstream-service-time: 9
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQAV9pmhlGY2z_ZHBxu_t-CjzguYtO-ha0hVyP5ZsZA1iEAzoNDw6mbYveG5uY2m_tYC81fePraR9utMvdp38Eaf0SC9sjBEnCM;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQBTRFD2TZEeeAJAY5Kj24dQ8scBhtU2nHA_sCYFkVRGJM-eTQt1OdiEgAQZ33YncUoevtsOb7VgUzGNuFVlJR2j_9luYylpuVwHAdoH9jqRYKWZkO4yeGob2NBVEiSAk1r0SJv3Txs","token_type":"Bearer","expires_in":3600}
+
+17:00:25.212 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 438
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < content-type: application/json
+1 < x-request-id: f9d2a307-1355-41fe-b48d-aedef4af12f6
+1 < set-cookie: __Host-device_id=AQBQHyQUYcJwH_KppuBFkbxqFtbFCLBGZlaeJGraQSXDGieTzld_Ld9K-VxZ7VsqGwrl-4IH54JCtxgDuw-qtHZztyiuVKb4n8Y;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: e04a84a147cba70c
+1 < x-envoy-upstream-service-time: 33
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQBQHyQUYcJwH_KppuBFkbxqFtbFCLBGZlaeJGraQSXDGieTzld_Ld9K-VxZ7VsqGwrl-4IH54JCtxgDuw-qtHZztyiuVKb4n8Y;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQAZoDLZX9b6iwpJQrrwryPtgYuC_UFanusTprrTWyoIdEPes2A-5wlitQU0cPuCYnTlasuWHPAdEJxeedWsEih0WCfiPtDgq-P8RPKmsQT6ugkFgNL73ijDZWeR4zEW9xbwB6DMJe4","token_type":"Bearer","expires_in":3600}
+
+17:00:25.234 [pool-2-thread-5] INFO  com.intuit.karate - [print] access_token BQAZoDLZX9b6iwpJQrrwryPtgYuC_UFanusTprrTWyoIdEPes2A-5wlitQU0cPuCYnTlasuWHPAdEJxeedWsEih0WCfiPtDgq-P8RPKmsQT6ugkFgNL73ijDZWeR4zEW9xbwB6DMJe4 
+17:00:25.234 [pool-2-thread-1] INFO  com.intuit.karate - [print] access_token BQDb11NE6gaKiw9dGxEd_zSX4jPqkc1FM-81x9vED2Vb-GTf0Us1ZqsHBd8R4S0-UfUlo6V4sdJoZbRjDAuHygCq8fxbLWlBiN6vFYWu7aX0WokAbM56hzhHiPBgoyCkOJffT7ahHH8 
+17:00:25.234 [pool-2-thread-4] INFO  com.intuit.karate - [print] access_token BQDxjr6DU6N7i2pzGU_k-h1Irxjb-d21SsCACkleH0cbk3vZi93wxOwSPJijsbfOErOYAiaP1bZP57taipkkSBRfNuOF5sD60MHpiPy4iTvGzJ82oTbidmUIEZleZXdQFs_pZUTmj0A 
+17:00:25.234 [pool-2-thread-2] INFO  com.intuit.karate - [print] access_token BQCUWcuruJTrq1EWAYBnxZoAlCQ2yjdnxpINfLFSP5_TXQzQvNi2GAFh0AeTk2-xe6OSZRkevZQALzSmNBvhFkFGzZEDm_CgMtLbYRVXjzR53mhM2bb2E5yfeKzAKk45KVFf5IPdJpc 
+17:00:25.234 [pool-2-thread-3] INFO  com.intuit.karate - [print] access_token BQBTRFD2TZEeeAJAY5Kj24dQ8scBhtU2nHA_sCYFkVRGJM-eTQt1OdiEgAQZ33YncUoevtsOb7VgUzGNuFVlJR2j_9luYylpuVwHAdoH9jqRYKWZkO4yeGob2NBVEiSAk1r0SJv3Txs 
+17:00:25.263 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums
+1 > Authorization: Bearer BQAZoDLZX9b6iwpJQrrwryPtgYuC_UFanusTprrTWyoIdEPes2A-5wlitQU0cPuCYnTlasuWHPAdEJxeedWsEih0WCfiPtDgq-P8RPKmsQT6ugkFgNL73ijDZWeR4zEW9xbwB6DMJe4
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.263 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4
+1 > Authorization: Bearer BQDb11NE6gaKiw9dGxEd_zSX4jPqkc1FM-81x9vED2Vb-GTf0Us1ZqsHBd8R4S0-UfUlo6V4sdJoZbRjDAuHygCq8fxbLWlBiN6vFYWu7aX0WokAbM56hzhHiPBgoyCkOJffT7ahHH8
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.263 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4?market=CO
+1 > Authorization: Bearer BQCUWcuruJTrq1EWAYBnxZoAlCQ2yjdnxpINfLFSP5_TXQzQvNi2GAFh0AeTk2-xe6OSZRkevZQALzSmNBvhFkFGzZEDm_CgMtLbYRVXjzR53mhM2bb2E5yfeKzAKk45KVFf5IPdJpc
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.270 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4?market=ES
+1 > Authorization: Bearer BQBTRFD2TZEeeAJAY5Kj24dQ8scBhtU2nHA_sCYFkVRGJM-eTQt1OdiEgAQZ33YncUoevtsOb7VgUzGNuFVlJR2j_9luYylpuVwHAdoH9jqRYKWZkO4yeGob2NBVEiSAk1r0SJv3Txs
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.287 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4,7kFyd5oyJdVX2pIi6P4iHE
+1 > Authorization: Bearer BQDxjr6DU6N7i2pzGU_k-h1Irxjb-d21SsCACkleH0cbk3vZi93wxOwSPJijsbfOErOYAiaP1bZP57taipkkSBRfNuOF5sD60MHpiPy4iTvGzJ82oTbidmUIEZleZXdQFs_pZUTmj0A
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.412 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 134
+1 < 400
+1 < content-type: application/json; charset=utf-8
+1 < cache-control: private, max-age=0
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{"error": {"status": 400, "message": "Missing required field: ids" } }
+
+17:00:25.428 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 125
+1 < 400
+1 < content-type: application/json; charset=utf-8
+1 < cache-control: private, max-age=0
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{"error": {"status": 400, "message": "Invalid base62 id" } }
+
+17:00:25.428 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:25.443 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:25.443 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:25.459 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:25.459 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 177
+1 < 200
+1 < content-type: application/json; charset=utf-8
+1 < cache-control: public, max-age=0
+1 < etag: "MC-ImVjYmRiOGU4OWUxMWU5NTJjZTQ5ZWE2ZmRmOWFjMTJlIg=="
+1 < x-robots-tag: noindex, nofollow
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{"album_type":"album","total_tracks":10,"is_playable":true,"external_urls":{"spotify":"https://open.spotify.com/album/2YeKV1ibuIz9JhF9Yg89w4"},"href":"https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4?market=CO","id":"2YeKV1ibuIz9JhF9Yg89w4","images":[{"url":"https://i.scdn.co/image/ab67616d0000b273b9f027d058291e71c7f3c578","height":640,"width":640},{"url":"https://i.scdn.co/image/ab67616d00001e02b9f027d058291e71c7f3c578","height":300,"width":300},{"url":"https://i.scdn.co/image/ab67616d00004851b9f027d058291e71c7f3c578","height":64,"width":64}],"name":"AZAROSOG","release_date":"2024-12-05","release_date_precision":"day","type":"album","uri":"spotify:album:2YeKV1ibuIz9JhF9Yg89w4","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"}],"tracks":{"href":"https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4/tracks?offset=0&limit=50&market=CO","limit":50,"next":null,"offset":0,"previous":null,"total":10,"items":[{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4bw2Am3p9ji3mYsXNXtQcd"},"href":"https://api.spotify.com/v1/artists/4bw2Am3p9ji3mYsXNXtQcd","id":"4bw2Am3p9ji3mYsXNXtQcd","name":"Piso 21","type":"artist","uri":"spotify:artist:4bw2Am3p9ji3mYsXNXtQcd"}],"disc_number":1,"duration_ms":199354,"explicit":false,"external_urls":{"spotify":"https://open.spotify.com/track/5HJ3pxkmRSnDvqPgT8ZgG3"},"href":"https://api.spotify.com/v1/tracks/5HJ3pxkmRSnDvqPgT8ZgG3","id":"5HJ3pxkmRSnDvqPgT8ZgG3","is_playable":true,"name":"Gané Cuando Te Perdí","preview_url":null,"track_number":1,"type":"track","uri":"spotify:track:5HJ3pxkmRSnDvqPgT8ZgG3","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/5IYRfypwG9BDDh5ZRPI80z"},"href":"https://api.spotify.com/v1/artists/5IYRfypwG9BDDh5ZRPI80z","id":"5IYRfypwG9BDDh5ZRPI80z","name":"Totoy El Frio","type":"artist","uri":"spotify:artist:5IYRfypwG9BDDh5ZRPI80z"},{"external_urls":{"spotify":"https://open.spotify.com/artist/7DXregrznS25AM30UY9sUU"},"href":"https://api.spotify.com/v1/artists/7DXregrznS25AM30UY9sUU","id":"7DXregrznS25AM30UY9sUU","name":"King Savagge","type":"artist","uri":"spotify:artist:7DXregrznS25AM30UY9sUU"}],"disc_number":1,"duration_ms":202500,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/6DbrJIfX7SW0orI2htf0eB"},"href":"https://api.spotify.com/v1/tracks/6DbrJIfX7SW0orI2htf0eB","id":"6DbrJIfX7SW0orI2htf0eB","is_playable":true,"name":"En Hebreo","preview_url":null,"track_number":2,"type":"track","uri":"spotify:track:6DbrJIfX7SW0orI2htf0eB","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4NGOJedxkGWwkbB5QiSJd1"},"href":"https://api.spotify.com/v1/artists/4NGOJedxkGWwkbB5QiSJd1","id":"4NGOJedxkGWwkbB5QiSJd1","name":"Jhay P","type":"artist","uri":"spotify:artist:4NGOJedxkGWwkbB5QiSJd1"},{"external_urls":{"spotify":"https://open.spotify.com/artist/72JO7MqhlJuMCwkx4w8Afr"},"href":"https://api.spotify.com/v1/artists/72JO7MqhlJuMCwkx4w8Afr","id":"72JO7MqhlJuMCwkx4w8Afr","name":"Jey F","type":"artist","uri":"spotify:artist:72JO7MqhlJuMCwkx4w8Afr"}],"disc_number":1,"duration_ms":159183,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/7q9Z9sIQJjJzqwuBQIwbTL"},"href":"https://api.spotify.com/v1/tracks/7q9Z9sIQJjJzqwuBQIwbTL","id":"7q9Z9sIQJjJzqwuBQIwbTL","is_playable":true,"name":"Blones En La Boca","preview_url":null,"track_number":3,"type":"track","uri":"spotify:track:7q9Z9sIQJjJzqwuBQIwbTL","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1TtXnWcUs0FCkaZDPGYHdf"},"href":"https://api.spotify.com/v1/artists/1TtXnWcUs0FCkaZDPGYHdf","id":"1TtXnWcUs0FCkaZDPGYHdf","name":"Darell","type":"artist","uri":"spotify:artist:1TtXnWcUs0FCkaZDPGYHdf"}],"disc_number":1,"duration_ms":218877,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/3yaxSH1bwc8N9ITC4RReyp"},"href":"https://api.spotify.com/v1/tracks/3yaxSH1bwc8N9ITC4RReyp","id":"3yaxSH1bwc8N9ITC4RReyp","is_playable":true,"name":"Cazador","preview_url":null,"track_number":4,"type":"track","uri":"spotify:track:3yaxSH1bwc8N9ITC4RReyp","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/0dUyjgCyjfj5eMx6bX2TWf"},"href":"https://api.spotify.com/v1/artists/0dUyjgCyjfj5eMx6bX2TWf","id":"0dUyjgCyjfj5eMx6bX2TWf","name":"FMK","type":"artist","uri":"spotify:artist:0dUyjgCyjfj5eMx6bX2TWf"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6ndLrsgT3MV5CNxIrW71fw"},"href":"https://api.spotify.com/v1/artists/6ndLrsgT3MV5CNxIrW71fw","id":"6ndLrsgT3MV5CNxIrW71fw","name":"DFZM","type":"artist","uri":"spotify:artist:6ndLrsgT3MV5CNxIrW71fw"}],"disc_number":1,"duration_ms":190515,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/0vRbONKymtBHMyKplGjNRn"},"href":"https://api.spotify.com/v1/tracks/0vRbONKymtBHMyKplGjNRn","id":"0vRbONKymtBHMyKplGjNRn","is_playable":true,"name":"IG","preview_url":null,"track_number":5,"type":"track","uri":"spotify:track:0vRbONKymtBHMyKplGjNRn","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2xmhyxkjpGNBeWXVMeVWHb"},"href":"https://api.spotify.com/v1/artists/2xmhyxkjpGNBeWXVMeVWHb","id":"2xmhyxkjpGNBeWXVMeVWHb","name":"Rayo & Toby","type":"artist","uri":"spotify:artist:2xmhyxkjpGNBeWXVMeVWHb"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4MvQy0WYny2XpZdGzpxZzN"},"href":"https://api.spotify.com/v1/artists/4MvQy0WYny2XpZdGzpxZzN","id":"4MvQy0WYny2XpZdGzpxZzN","name":"Lion Fiah","type":"artist","uri":"spotify:artist:4MvQy0WYny2XpZdGzpxZzN"}],"disc_number":1,"duration_ms":157241,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/6pwDugz0rQdOakUf8KxOYj"},"href":"https://api.spotify.com/v1/tracks/6pwDugz0rQdOakUf8KxOYj","id":"6pwDugz0rQdOakUf8KxOYj","is_playable":true,"name":"Los Juguetes","preview_url":null,"track_number":6,"type":"track","uri":"spotify:track:6pwDugz0rQdOakUf8KxOYj","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/5hdhHgpxyniooUiQVaPxQ0"},"href":"https://api.spotify.com/v1/artists/5hdhHgpxyniooUiQVaPxQ0","id":"5hdhHgpxyniooUiQVaPxQ0","name":"Nio Garcia","type":"artist","uri":"spotify:artist:5hdhHgpxyniooUiQVaPxQ0"}],"disc_number":1,"duration_ms":180618,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/4E49ghc58Yplm2jG1IlE3O"},"href":"https://api.spotify.com/v1/tracks/4E49ghc58Yplm2jG1IlE3O","id":"4E49ghc58Yplm2jG1IlE3O","is_playable":true,"name":"Te Conviene","preview_url":null,"track_number":7,"type":"track","uri":"spotify:track:4E49ghc58Yplm2jG1IlE3O","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4i2al9gevm5K5OlbjqzcJs"},"href":"https://api.spotify.com/v1/artists/4i2al9gevm5K5OlbjqzcJs","id":"4i2al9gevm5K5OlbjqzcJs","name":"Peipper","type":"artist","uri":"spotify:artist:4i2al9gevm5K5OlbjqzcJs"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2IhhVEifV7ntdvp2YmMIzg"},"href":"https://api.spotify.com/v1/artists/2IhhVEifV7ntdvp2YmMIzg","id":"2IhhVEifV7ntdvp2YmMIzg","name":"Reboll333","type":"artist","uri":"spotify:artist:2IhhVEifV7ntdvp2YmMIzg"}],"disc_number":1,"duration_ms":214800,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/2feK2pdoTwA7a7Ojh2o5wM"},"href":"https://api.spotify.com/v1/tracks/2feK2pdoTwA7a7Ojh2o5wM","id":"2feK2pdoTwA7a7Ojh2o5wM","is_playable":true,"name":"Te Quise Tanto","preview_url":null,"track_number":8,"type":"track","uri":"spotify:track:2feK2pdoTwA7a7Ojh2o5wM","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1zo2ucFhzu58hKcniMpSQs"},"href":"https://api.spotify.com/v1/artists/1zo2ucFhzu58hKcniMpSQs","id":"1zo2ucFhzu58hKcniMpSQs","name":"Soley","type":"artist","uri":"spotify:artist:1zo2ucFhzu58hKcniMpSQs"},{"external_urls":{"spotify":"https://open.spotify.com/artist/680tleL97NcpJiib89V6UU"},"href":"https://api.spotify.com/v1/artists/680tleL97NcpJiib89V6UU","id":"680tleL97NcpJiib89V6UU","name":"Esteban Rojas","type":"artist","uri":"spotify:artist:680tleL97NcpJiib89V6UU"}],"disc_number":1,"duration_ms":194526,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/2BDCNX7uoYwdkVeWGX3F1A"},"href":"https://api.spotify.com/v1/tracks/2BDCNX7uoYwdkVeWGX3F1A","id":"2BDCNX7uoYwdkVeWGX3F1A","is_playable":true,"name":"Pa Que Te Duela","preview_url":null,"track_number":9,"type":"track","uri":"spotify:track:2BDCNX7uoYwdkVeWGX3F1A","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/3Br3yFwx1NRBArrlOxbf87"},"href":"https://api.spotify.com/v1/artists/3Br3yFwx1NRBArrlOxbf87","id":"3Br3yFwx1NRBArrlOxbf87","name":"Yessie","type":"artist","uri":"spotify:artist:3Br3yFwx1NRBArrlOxbf87"},{"external_urls":{"spotify":"https://open.spotify.com/artist/7xVUa8mqwCgdu4mQn3geCY"},"href":"https://api.spotify.com/v1/artists/7xVUa8mqwCgdu4mQn3geCY","id":"7xVUa8mqwCgdu4mQn3geCY","name":"DIA","type":"artist","uri":"spotify:artist:7xVUa8mqwCgdu4mQn3geCY"}],"disc_number":1,"duration_ms":185816,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/50lahWbGXpraoaaq7l3kGN"},"href":"https://api.spotify.com/v1/tracks/50lahWbGXpraoaaq7l3kGN","id":"50lahWbGXpraoaaq7l3kGN","is_playable":true,"name":"Una Como Yo (feat. DIA)","preview_url":null,"track_number":10,"type":"track","uri":"spotify:track:50lahWbGXpraoaaq7l3kGN","is_local":false}]},"copyrights":[{"text":"© 2024 Warner Music México, S.A. de C.V.","type":"C"},{"text":"℗ 2024 Warner Music México, S.A. de C.V.","type":"P"}],"external_ids":{"upc":"5021732582034"},"genres":[],"label":"WM Mexico","popularity":32}
+
+17:00:25.459 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 173
+1 < 200
+1 < content-type: application/json; charset=utf-8
+1 < cache-control: public, max-age=0
+1 < etag: "MC-ImEyOWRhODUzNzc2NTdmNDcyMzU3ZjM2NGQ5YzkyY2I1Ig=="
+1 < x-robots-tag: noindex, nofollow
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{"album_type":"album","total_tracks":10,"is_playable":true,"external_urls":{"spotify":"https://open.spotify.com/album/2YeKV1ibuIz9JhF9Yg89w4"},"href":"https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4?market=ES","id":"2YeKV1ibuIz9JhF9Yg89w4","images":[{"url":"https://i.scdn.co/image/ab67616d0000b273b9f027d058291e71c7f3c578","height":640,"width":640},{"url":"https://i.scdn.co/image/ab67616d00001e02b9f027d058291e71c7f3c578","height":300,"width":300},{"url":"https://i.scdn.co/image/ab67616d00004851b9f027d058291e71c7f3c578","height":64,"width":64}],"name":"AZAROSOG","release_date":"2024-12-05","release_date_precision":"day","type":"album","uri":"spotify:album:2YeKV1ibuIz9JhF9Yg89w4","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"}],"tracks":{"href":"https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4/tracks?offset=0&limit=50&market=ES","limit":50,"next":null,"offset":0,"previous":null,"total":10,"items":[{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4bw2Am3p9ji3mYsXNXtQcd"},"href":"https://api.spotify.com/v1/artists/4bw2Am3p9ji3mYsXNXtQcd","id":"4bw2Am3p9ji3mYsXNXtQcd","name":"Piso 21","type":"artist","uri":"spotify:artist:4bw2Am3p9ji3mYsXNXtQcd"}],"disc_number":1,"duration_ms":199354,"explicit":false,"external_urls":{"spotify":"https://open.spotify.com/track/5HJ3pxkmRSnDvqPgT8ZgG3"},"href":"https://api.spotify.com/v1/tracks/5HJ3pxkmRSnDvqPgT8ZgG3","id":"5HJ3pxkmRSnDvqPgT8ZgG3","is_playable":true,"name":"Gané Cuando Te Perdí","preview_url":null,"track_number":1,"type":"track","uri":"spotify:track:5HJ3pxkmRSnDvqPgT8ZgG3","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/5IYRfypwG9BDDh5ZRPI80z"},"href":"https://api.spotify.com/v1/artists/5IYRfypwG9BDDh5ZRPI80z","id":"5IYRfypwG9BDDh5ZRPI80z","name":"Totoy El Frio","type":"artist","uri":"spotify:artist:5IYRfypwG9BDDh5ZRPI80z"},{"external_urls":{"spotify":"https://open.spotify.com/artist/7DXregrznS25AM30UY9sUU"},"href":"https://api.spotify.com/v1/artists/7DXregrznS25AM30UY9sUU","id":"7DXregrznS25AM30UY9sUU","name":"King Savagge","type":"artist","uri":"spotify:artist:7DXregrznS25AM30UY9sUU"}],"disc_number":1,"duration_ms":202500,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/6DbrJIfX7SW0orI2htf0eB"},"href":"https://api.spotify.com/v1/tracks/6DbrJIfX7SW0orI2htf0eB","id":"6DbrJIfX7SW0orI2htf0eB","is_playable":true,"name":"En Hebreo","preview_url":null,"track_number":2,"type":"track","uri":"spotify:track:6DbrJIfX7SW0orI2htf0eB","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4NGOJedxkGWwkbB5QiSJd1"},"href":"https://api.spotify.com/v1/artists/4NGOJedxkGWwkbB5QiSJd1","id":"4NGOJedxkGWwkbB5QiSJd1","name":"Jhay P","type":"artist","uri":"spotify:artist:4NGOJedxkGWwkbB5QiSJd1"},{"external_urls":{"spotify":"https://open.spotify.com/artist/72JO7MqhlJuMCwkx4w8Afr"},"href":"https://api.spotify.com/v1/artists/72JO7MqhlJuMCwkx4w8Afr","id":"72JO7MqhlJuMCwkx4w8Afr","name":"Jey F","type":"artist","uri":"spotify:artist:72JO7MqhlJuMCwkx4w8Afr"}],"disc_number":1,"duration_ms":159183,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/7q9Z9sIQJjJzqwuBQIwbTL"},"href":"https://api.spotify.com/v1/tracks/7q9Z9sIQJjJzqwuBQIwbTL","id":"7q9Z9sIQJjJzqwuBQIwbTL","is_playable":true,"name":"Blones En La Boca","preview_url":null,"track_number":3,"type":"track","uri":"spotify:track:7q9Z9sIQJjJzqwuBQIwbTL","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1TtXnWcUs0FCkaZDPGYHdf"},"href":"https://api.spotify.com/v1/artists/1TtXnWcUs0FCkaZDPGYHdf","id":"1TtXnWcUs0FCkaZDPGYHdf","name":"Darell","type":"artist","uri":"spotify:artist:1TtXnWcUs0FCkaZDPGYHdf"}],"disc_number":1,"duration_ms":218877,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/3yaxSH1bwc8N9ITC4RReyp"},"href":"https://api.spotify.com/v1/tracks/3yaxSH1bwc8N9ITC4RReyp","id":"3yaxSH1bwc8N9ITC4RReyp","is_playable":true,"name":"Cazador","preview_url":null,"track_number":4,"type":"track","uri":"spotify:track:3yaxSH1bwc8N9ITC4RReyp","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/0dUyjgCyjfj5eMx6bX2TWf"},"href":"https://api.spotify.com/v1/artists/0dUyjgCyjfj5eMx6bX2TWf","id":"0dUyjgCyjfj5eMx6bX2TWf","name":"FMK","type":"artist","uri":"spotify:artist:0dUyjgCyjfj5eMx6bX2TWf"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6ndLrsgT3MV5CNxIrW71fw"},"href":"https://api.spotify.com/v1/artists/6ndLrsgT3MV5CNxIrW71fw","id":"6ndLrsgT3MV5CNxIrW71fw","name":"DFZM","type":"artist","uri":"spotify:artist:6ndLrsgT3MV5CNxIrW71fw"}],"disc_number":1,"duration_ms":190515,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/0vRbONKymtBHMyKplGjNRn"},"href":"https://api.spotify.com/v1/tracks/0vRbONKymtBHMyKplGjNRn","id":"0vRbONKymtBHMyKplGjNRn","is_playable":true,"name":"IG","preview_url":null,"track_number":5,"type":"track","uri":"spotify:track:0vRbONKymtBHMyKplGjNRn","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2xmhyxkjpGNBeWXVMeVWHb"},"href":"https://api.spotify.com/v1/artists/2xmhyxkjpGNBeWXVMeVWHb","id":"2xmhyxkjpGNBeWXVMeVWHb","name":"Rayo & Toby","type":"artist","uri":"spotify:artist:2xmhyxkjpGNBeWXVMeVWHb"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4MvQy0WYny2XpZdGzpxZzN"},"href":"https://api.spotify.com/v1/artists/4MvQy0WYny2XpZdGzpxZzN","id":"4MvQy0WYny2XpZdGzpxZzN","name":"Lion Fiah","type":"artist","uri":"spotify:artist:4MvQy0WYny2XpZdGzpxZzN"}],"disc_number":1,"duration_ms":157241,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/6pwDugz0rQdOakUf8KxOYj"},"href":"https://api.spotify.com/v1/tracks/6pwDugz0rQdOakUf8KxOYj","id":"6pwDugz0rQdOakUf8KxOYj","is_playable":true,"name":"Los Juguetes","preview_url":null,"track_number":6,"type":"track","uri":"spotify:track:6pwDugz0rQdOakUf8KxOYj","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/5hdhHgpxyniooUiQVaPxQ0"},"href":"https://api.spotify.com/v1/artists/5hdhHgpxyniooUiQVaPxQ0","id":"5hdhHgpxyniooUiQVaPxQ0","name":"Nio Garcia","type":"artist","uri":"spotify:artist:5hdhHgpxyniooUiQVaPxQ0"}],"disc_number":1,"duration_ms":180618,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/4E49ghc58Yplm2jG1IlE3O"},"href":"https://api.spotify.com/v1/tracks/4E49ghc58Yplm2jG1IlE3O","id":"4E49ghc58Yplm2jG1IlE3O","is_playable":true,"name":"Te Conviene","preview_url":null,"track_number":7,"type":"track","uri":"spotify:track:4E49ghc58Yplm2jG1IlE3O","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4i2al9gevm5K5OlbjqzcJs"},"href":"https://api.spotify.com/v1/artists/4i2al9gevm5K5OlbjqzcJs","id":"4i2al9gevm5K5OlbjqzcJs","name":"Peipper","type":"artist","uri":"spotify:artist:4i2al9gevm5K5OlbjqzcJs"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2IhhVEifV7ntdvp2YmMIzg"},"href":"https://api.spotify.com/v1/artists/2IhhVEifV7ntdvp2YmMIzg","id":"2IhhVEifV7ntdvp2YmMIzg","name":"Reboll333","type":"artist","uri":"spotify:artist:2IhhVEifV7ntdvp2YmMIzg"}],"disc_number":1,"duration_ms":214800,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/2feK2pdoTwA7a7Ojh2o5wM"},"href":"https://api.spotify.com/v1/tracks/2feK2pdoTwA7a7Ojh2o5wM","id":"2feK2pdoTwA7a7Ojh2o5wM","is_playable":true,"name":"Te Quise Tanto","preview_url":null,"track_number":8,"type":"track","uri":"spotify:track:2feK2pdoTwA7a7Ojh2o5wM","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1zo2ucFhzu58hKcniMpSQs"},"href":"https://api.spotify.com/v1/artists/1zo2ucFhzu58hKcniMpSQs","id":"1zo2ucFhzu58hKcniMpSQs","name":"Soley","type":"artist","uri":"spotify:artist:1zo2ucFhzu58hKcniMpSQs"},{"external_urls":{"spotify":"https://open.spotify.com/artist/680tleL97NcpJiib89V6UU"},"href":"https://api.spotify.com/v1/artists/680tleL97NcpJiib89V6UU","id":"680tleL97NcpJiib89V6UU","name":"Esteban Rojas","type":"artist","uri":"spotify:artist:680tleL97NcpJiib89V6UU"}],"disc_number":1,"duration_ms":194526,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/2BDCNX7uoYwdkVeWGX3F1A"},"href":"https://api.spotify.com/v1/tracks/2BDCNX7uoYwdkVeWGX3F1A","id":"2BDCNX7uoYwdkVeWGX3F1A","is_playable":true,"name":"Pa Que Te Duela","preview_url":null,"track_number":9,"type":"track","uri":"spotify:track:2BDCNX7uoYwdkVeWGX3F1A","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/3Br3yFwx1NRBArrlOxbf87"},"href":"https://api.spotify.com/v1/artists/3Br3yFwx1NRBArrlOxbf87","id":"3Br3yFwx1NRBArrlOxbf87","name":"Yessie","type":"artist","uri":"spotify:artist:3Br3yFwx1NRBArrlOxbf87"},{"external_urls":{"spotify":"https://open.spotify.com/artist/7xVUa8mqwCgdu4mQn3geCY"},"href":"https://api.spotify.com/v1/artists/7xVUa8mqwCgdu4mQn3geCY","id":"7xVUa8mqwCgdu4mQn3geCY","name":"DIA","type":"artist","uri":"spotify:artist:7xVUa8mqwCgdu4mQn3geCY"}],"disc_number":1,"duration_ms":185816,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/50lahWbGXpraoaaq7l3kGN"},"href":"https://api.spotify.com/v1/tracks/50lahWbGXpraoaaq7l3kGN","id":"50lahWbGXpraoaaq7l3kGN","is_playable":true,"name":"Una Como Yo (feat. DIA)","preview_url":null,"track_number":10,"type":"track","uri":"spotify:track:50lahWbGXpraoaaq7l3kGN","is_local":false}]},"copyrights":[{"text":"© 2024 Warner Music México, S.A. de C.V.","type":"C"},{"text":"℗ 2024 Warner Music México, S.A. de C.V.","type":"P"}],"external_ids":{"upc":"5021732582034"},"genres":[],"label":"WM Mexico","popularity":32}
+
+17:00:25.475 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 180
+1 < 200
+1 < content-type: application/json; charset=utf-8
+1 < cache-control: public, max-age=0
+1 < etag: "MC-Ijk3ZmZmY2E0ZDBlNTNlMTc0ZTA1MmMzMjQ2ZDAyMjk5Ig=="
+1 < x-robots-tag: noindex, nofollow
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{"album_type":"album","total_tracks":10,"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"external_urls":{"spotify":"https://open.spotify.com/album/2YeKV1ibuIz9JhF9Yg89w4"},"href":"https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4","id":"2YeKV1ibuIz9JhF9Yg89w4","images":[{"url":"https://i.scdn.co/image/ab67616d0000b273b9f027d058291e71c7f3c578","height":640,"width":640},{"url":"https://i.scdn.co/image/ab67616d00001e02b9f027d058291e71c7f3c578","height":300,"width":300},{"url":"https://i.scdn.co/image/ab67616d00004851b9f027d058291e71c7f3c578","height":64,"width":64}],"name":"AZAROSOG","release_date":"2024-12-05","release_date_precision":"day","type":"album","uri":"spotify:album:2YeKV1ibuIz9JhF9Yg89w4","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"}],"tracks":{"href":"https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4/tracks?offset=0&limit=50","limit":50,"next":null,"offset":0,"previous":null,"total":10,"items":[{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4bw2Am3p9ji3mYsXNXtQcd"},"href":"https://api.spotify.com/v1/artists/4bw2Am3p9ji3mYsXNXtQcd","id":"4bw2Am3p9ji3mYsXNXtQcd","name":"Piso 21","type":"artist","uri":"spotify:artist:4bw2Am3p9ji3mYsXNXtQcd"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":199354,"explicit":false,"external_urls":{"spotify":"https://open.spotify.com/track/5HJ3pxkmRSnDvqPgT8ZgG3"},"href":"https://api.spotify.com/v1/tracks/5HJ3pxkmRSnDvqPgT8ZgG3","id":"5HJ3pxkmRSnDvqPgT8ZgG3","name":"Gané Cuando Te Perdí","preview_url":null,"track_number":1,"type":"track","uri":"spotify:track:5HJ3pxkmRSnDvqPgT8ZgG3","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/5IYRfypwG9BDDh5ZRPI80z"},"href":"https://api.spotify.com/v1/artists/5IYRfypwG9BDDh5ZRPI80z","id":"5IYRfypwG9BDDh5ZRPI80z","name":"Totoy El Frio","type":"artist","uri":"spotify:artist:5IYRfypwG9BDDh5ZRPI80z"},{"external_urls":{"spotify":"https://open.spotify.com/artist/7DXregrznS25AM30UY9sUU"},"href":"https://api.spotify.com/v1/artists/7DXregrznS25AM30UY9sUU","id":"7DXregrznS25AM30UY9sUU","name":"King Savagge","type":"artist","uri":"spotify:artist:7DXregrznS25AM30UY9sUU"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":202500,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/6DbrJIfX7SW0orI2htf0eB"},"href":"https://api.spotify.com/v1/tracks/6DbrJIfX7SW0orI2htf0eB","id":"6DbrJIfX7SW0orI2htf0eB","name":"En Hebreo","preview_url":null,"track_number":2,"type":"track","uri":"spotify:track:6DbrJIfX7SW0orI2htf0eB","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4NGOJedxkGWwkbB5QiSJd1"},"href":"https://api.spotify.com/v1/artists/4NGOJedxkGWwkbB5QiSJd1","id":"4NGOJedxkGWwkbB5QiSJd1","name":"Jhay P","type":"artist","uri":"spotify:artist:4NGOJedxkGWwkbB5QiSJd1"},{"external_urls":{"spotify":"https://open.spotify.com/artist/72JO7MqhlJuMCwkx4w8Afr"},"href":"https://api.spotify.com/v1/artists/72JO7MqhlJuMCwkx4w8Afr","id":"72JO7MqhlJuMCwkx4w8Afr","name":"Jey F","type":"artist","uri":"spotify:artist:72JO7MqhlJuMCwkx4w8Afr"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":159183,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/7q9Z9sIQJjJzqwuBQIwbTL"},"href":"https://api.spotify.com/v1/tracks/7q9Z9sIQJjJzqwuBQIwbTL","id":"7q9Z9sIQJjJzqwuBQIwbTL","name":"Blones En La Boca","preview_url":null,"track_number":3,"type":"track","uri":"spotify:track:7q9Z9sIQJjJzqwuBQIwbTL","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1TtXnWcUs0FCkaZDPGYHdf"},"href":"https://api.spotify.com/v1/artists/1TtXnWcUs0FCkaZDPGYHdf","id":"1TtXnWcUs0FCkaZDPGYHdf","name":"Darell","type":"artist","uri":"spotify:artist:1TtXnWcUs0FCkaZDPGYHdf"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":218877,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/3yaxSH1bwc8N9ITC4RReyp"},"href":"https://api.spotify.com/v1/tracks/3yaxSH1bwc8N9ITC4RReyp","id":"3yaxSH1bwc8N9ITC4RReyp","name":"Cazador","preview_url":null,"track_number":4,"type":"track","uri":"spotify:track:3yaxSH1bwc8N9ITC4RReyp","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/0dUyjgCyjfj5eMx6bX2TWf"},"href":"https://api.spotify.com/v1/artists/0dUyjgCyjfj5eMx6bX2TWf","id":"0dUyjgCyjfj5eMx6bX2TWf","name":"FMK","type":"artist","uri":"spotify:artist:0dUyjgCyjfj5eMx6bX2TWf"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6ndLrsgT3MV5CNxIrW71fw"},"href":"https://api.spotify.com/v1/artists/6ndLrsgT3MV5CNxIrW71fw","id":"6ndLrsgT3MV5CNxIrW71fw","name":"DFZM","type":"artist","uri":"spotify:artist:6ndLrsgT3MV5CNxIrW71fw"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":190515,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/0vRbONKymtBHMyKplGjNRn"},"href":"https://api.spotify.com/v1/tracks/0vRbONKymtBHMyKplGjNRn","id":"0vRbONKymtBHMyKplGjNRn","name":"IG","preview_url":null,"track_number":5,"type":"track","uri":"spotify:track:0vRbONKymtBHMyKplGjNRn","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2xmhyxkjpGNBeWXVMeVWHb"},"href":"https://api.spotify.com/v1/artists/2xmhyxkjpGNBeWXVMeVWHb","id":"2xmhyxkjpGNBeWXVMeVWHb","name":"Rayo & Toby","type":"artist","uri":"spotify:artist:2xmhyxkjpGNBeWXVMeVWHb"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4MvQy0WYny2XpZdGzpxZzN"},"href":"https://api.spotify.com/v1/artists/4MvQy0WYny2XpZdGzpxZzN","id":"4MvQy0WYny2XpZdGzpxZzN","name":"Lion Fiah","type":"artist","uri":"spotify:artist:4MvQy0WYny2XpZdGzpxZzN"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":157241,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/6pwDugz0rQdOakUf8KxOYj"},"href":"https://api.spotify.com/v1/tracks/6pwDugz0rQdOakUf8KxOYj","id":"6pwDugz0rQdOakUf8KxOYj","name":"Los Juguetes","preview_url":null,"track_number":6,"type":"track","uri":"spotify:track:6pwDugz0rQdOakUf8KxOYj","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/5hdhHgpxyniooUiQVaPxQ0"},"href":"https://api.spotify.com/v1/artists/5hdhHgpxyniooUiQVaPxQ0","id":"5hdhHgpxyniooUiQVaPxQ0","name":"Nio Garcia","type":"artist","uri":"spotify:artist:5hdhHgpxyniooUiQVaPxQ0"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":180618,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/4E49ghc58Yplm2jG1IlE3O"},"href":"https://api.spotify.com/v1/tracks/4E49ghc58Yplm2jG1IlE3O","id":"4E49ghc58Yplm2jG1IlE3O","name":"Te Conviene","preview_url":null,"track_number":7,"type":"track","uri":"spotify:track:4E49ghc58Yplm2jG1IlE3O","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/4i2al9gevm5K5OlbjqzcJs"},"href":"https://api.spotify.com/v1/artists/4i2al9gevm5K5OlbjqzcJs","id":"4i2al9gevm5K5OlbjqzcJs","name":"Peipper","type":"artist","uri":"spotify:artist:4i2al9gevm5K5OlbjqzcJs"},{"external_urls":{"spotify":"https://open.spotify.com/artist/2IhhVEifV7ntdvp2YmMIzg"},"href":"https://api.spotify.com/v1/artists/2IhhVEifV7ntdvp2YmMIzg","id":"2IhhVEifV7ntdvp2YmMIzg","name":"Reboll333","type":"artist","uri":"spotify:artist:2IhhVEifV7ntdvp2YmMIzg"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":214800,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/2feK2pdoTwA7a7Ojh2o5wM"},"href":"https://api.spotify.com/v1/tracks/2feK2pdoTwA7a7Ojh2o5wM","id":"2feK2pdoTwA7a7Ojh2o5wM","name":"Te Quise Tanto","preview_url":null,"track_number":8,"type":"track","uri":"spotify:track:2feK2pdoTwA7a7Ojh2o5wM","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/1zo2ucFhzu58hKcniMpSQs"},"href":"https://api.spotify.com/v1/artists/1zo2ucFhzu58hKcniMpSQs","id":"1zo2ucFhzu58hKcniMpSQs","name":"Soley","type":"artist","uri":"spotify:artist:1zo2ucFhzu58hKcniMpSQs"},{"external_urls":{"spotify":"https://open.spotify.com/artist/680tleL97NcpJiib89V6UU"},"href":"https://api.spotify.com/v1/artists/680tleL97NcpJiib89V6UU","id":"680tleL97NcpJiib89V6UU","name":"Esteban Rojas","type":"artist","uri":"spotify:artist:680tleL97NcpJiib89V6UU"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":194526,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/2BDCNX7uoYwdkVeWGX3F1A"},"href":"https://api.spotify.com/v1/tracks/2BDCNX7uoYwdkVeWGX3F1A","id":"2BDCNX7uoYwdkVeWGX3F1A","name":"Pa Que Te Duela","preview_url":null,"track_number":9,"type":"track","uri":"spotify:track:2BDCNX7uoYwdkVeWGX3F1A","is_local":false},{"artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/18dspUI6gqabm5XCC2RcUD"},"href":"https://api.spotify.com/v1/artists/18dspUI6gqabm5XCC2RcUD","id":"18dspUI6gqabm5XCC2RcUD","name":"SOG","type":"artist","uri":"spotify:artist:18dspUI6gqabm5XCC2RcUD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/3Br3yFwx1NRBArrlOxbf87"},"href":"https://api.spotify.com/v1/artists/3Br3yFwx1NRBArrlOxbf87","id":"3Br3yFwx1NRBArrlOxbf87","name":"Yessie","type":"artist","uri":"spotify:artist:3Br3yFwx1NRBArrlOxbf87"},{"external_urls":{"spotify":"https://open.spotify.com/artist/7xVUa8mqwCgdu4mQn3geCY"},"href":"https://api.spotify.com/v1/artists/7xVUa8mqwCgdu4mQn3geCY","id":"7xVUa8mqwCgdu4mQn3geCY","name":"DIA","type":"artist","uri":"spotify:artist:7xVUa8mqwCgdu4mQn3geCY"}],"available_markets":["AR","AU","AT","BE","BO","BR","BG","CA","CL","CO","CR","CY","CZ","DK","DO","DE","EC","EE","SV","FI","FR","GR","GT","HN","HK","HU","IS","IE","IT","LV","LT","LU","MY","MT","MX","NL","NZ","NI","NO","PA","PY","PE","PH","PL","PT","SG","SK","ES","SE","CH","TW","TR","UY","US","GB","AD","LI","MC","ID","JP","TH","VN","RO","IL","ZA","SA","AE","BH","QA","OM","KW","EG","MA","DZ","TN","LB","JO","PS","IN","KZ","MD","UA","AL","BA","HR","ME","MK","RS","SI","KR","BD","PK","LK","GH","KE","NG","TZ","UG","AG","AM","BS","BB","BZ","BT","BW","BF","CV","CW","DM","FJ","GM","GE","GD","GW","GY","HT","JM","KI","LS","LR","MW","MV","ML","MH","FM","NA","NR","NE","PW","PG","PR","WS","SM","ST","SN","SC","SL","SB","KN","LC","VC","SR","TL","TO","TT","TV","VU","AZ","BN","BI","KH","CM","TD","KM","GQ","SZ","GA","GN","KG","LA","MO","MR","MN","NP","RW","TG","UZ","ZW","BJ","MG","MU","MZ","AO","CI","DJ","ZM","CD","CG","IQ","LY","TJ","VE","ET","XK"],"disc_number":1,"duration_ms":185816,"explicit":true,"external_urls":{"spotify":"https://open.spotify.com/track/50lahWbGXpraoaaq7l3kGN"},"href":"https://api.spotify.com/v1/tracks/50lahWbGXpraoaaq7l3kGN","id":"50lahWbGXpraoaaq7l3kGN","name":"Una Como Yo (feat. DIA)","preview_url":null,"track_number":10,"type":"track","uri":"spotify:track:50lahWbGXpraoaaq7l3kGN","is_local":false}]},"copyrights":[{"text":"© 2024 Warner Music México, S.A. de C.V.","type":"C"},{"text":"℗ 2024 Warner Music México, S.A. de C.V.","type":"P"}],"external_ids":{"upc":"5021732582034"},"genres":[],"label":"WM Mexico","popularity":32}
+
+17:00:25.490 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:25.506 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:25.506 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:25.522 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:25.568 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:25.584 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:25.622 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 141
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < content-type: application/json
+1 < x-request-id: a5e3b6c6-d024-4438-bfd1-69e0b050d1bc
+1 < set-cookie: __Host-device_id=AQDLn4loi9Fhzra1aS-d2ObCjvi52ihbZdtu377LDakHOxnW2kaGzzBTXXDE5GSua4xZDoIorhxXxSSh66YmLo6Gf0IL-dzBUdc;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: 9f9cae4197c612d1
+1 < x-envoy-upstream-service-time: 10
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQDLn4loi9Fhzra1aS-d2ObCjvi52ihbZdtu377LDakHOxnW2kaGzzBTXXDE5GSua4xZDoIorhxXxSSh66YmLo6Gf0IL-dzBUdc;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQASckdi5v48H3kbM8kMhZixsJFsb2mZWN4BDJoN5Z-UtKWhCDwVylrntC13wpzqceDITq2qfvHIr4P5m9Dl1Ekyphx9p5SrpcUy4YtP7WxhsJTsvr77QFEWtxvmrNZXpF00qBRTw_M","token_type":"Bearer","expires_in":3600}
+
+17:00:25.622 [pool-2-thread-4] INFO  com.intuit.karate - [print] access_token BQASckdi5v48H3kbM8kMhZixsJFsb2mZWN4BDJoN5Z-UtKWhCDwVylrntC13wpzqceDITq2qfvHIr4P5m9Dl1Ekyphx9p5SrpcUy4YtP7WxhsJTsvr77QFEWtxvmrNZXpF00qBRTw_M 
+17:00:25.622 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/14zUHaJZo1mnYtn6IBRaRP
+1 > Authorization: Bearer BQASckdi5v48H3kbM8kMhZixsJFsb2mZWN4BDJoN5Z-UtKWhCDwVylrntC13wpzqceDITq2qfvHIr4P5m9Dl1Ekyphx9p5SrpcUy4YtP7WxhsJTsvr77QFEWtxvmrNZXpF00qBRTw_M
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.655 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 197
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < content-type: application/json
+1 < x-request-id: fe5663ea-b599-4254-98bd-db7474badf4b
+1 < set-cookie: __Host-device_id=AQBvEWhxgzmtdDwS4Y5qViWTRXjzXHgFi3dpdUKO2u1-sDhs_S4idQHtij8MNBQtQuxWqHnAjldtuxRAZVnj1RSVMIsVLL7QbrI;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: 8baa0599ae18a017
+1 < x-envoy-upstream-service-time: 12
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQBvEWhxgzmtdDwS4Y5qViWTRXjzXHgFi3dpdUKO2u1-sDhs_S4idQHtij8MNBQtQuxWqHnAjldtuxRAZVnj1RSVMIsVLL7QbrI;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQCkeYcP6PkVMvVE_Q_qS9kauuz8Y4C1jK4Hqfo_oQa0i8ygATrzwkYfzlBB3xqbE6ukn9wyjFNFL101LUpR-IfC-nYP7Dur5CTKw6bAzPGlvALW6vqMawGEVaUvsFNwRtXr4hY6XRU","token_type":"Bearer","expires_in":3600}
+
+17:00:25.655 [pool-2-thread-5] INFO  com.intuit.karate - [print] access_token BQCkeYcP6PkVMvVE_Q_qS9kauuz8Y4C1jK4Hqfo_oQa0i8ygATrzwkYfzlBB3xqbE6ukn9wyjFNFL101LUpR-IfC-nYP7Dur5CTKw6bAzPGlvALW6vqMawGEVaUvsFNwRtXr4hY6XRU 
+17:00:25.655 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 134
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < content-type: application/json
+1 < x-request-id: c8d77b87-a04e-41a6-95ca-2c0a0f984df8
+1 < set-cookie: __Host-device_id=AQC4oxVuaxDR1sx0fcouRyoW8PXXzOSTkDmEtjmmkhVyyiBmGpBrMERdXCn0xYNQhgZw6quA3uq_ac1H3mUqpl6FZhJZ4oiEV90;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: e04a394490564334
+1 < x-envoy-upstream-service-time: 8
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQC4oxVuaxDR1sx0fcouRyoW8PXXzOSTkDmEtjmmkhVyyiBmGpBrMERdXCn0xYNQhgZw6quA3uq_ac1H3mUqpl6FZhJZ4oiEV90;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQD5-oc3Oqjw7CAk_tSVj6i_a5UuFu-Q34xdy06IWVxI3MzvN2nA3M8DvRlIgHhLHB_IaAi8TRCS1wMCLCHGu_fd02oqNSzJft8PR95PhKiIqJCqBnzaGYFWZdvyvwMflzna_xtCdWc","token_type":"Bearer","expires_in":3600}
+
+17:00:25.655 [pool-2-thread-3] INFO  com.intuit.karate - [print] access_token BQD5-oc3Oqjw7CAk_tSVj6i_a5UuFu-Q34xdy06IWVxI3MzvN2nA3M8DvRlIgHhLHB_IaAi8TRCS1wMCLCHGu_fd02oqNSzJft8PR95PhKiIqJCqBnzaGYFWZdvyvwMflzna_xtCdWc 
+17:00:25.655 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/aeio2020232521
+1 > Authorization: Bearer BQCkeYcP6PkVMvVE_Q_qS9kauuz8Y4C1jK4Hqfo_oQa0i8ygATrzwkYfzlBB3xqbE6ukn9wyjFNFL101LUpR-IfC-nYP7Dur5CTKw6bAzPGlvALW6vqMawGEVaUvsFNwRtXr4hY6XRU
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.674 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4
+1 > Authorization: Bearer aeae1818
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.689 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 150
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < content-type: application/json
+1 < x-request-id: 4229d05b-dba1-48fe-865d-5f9497fa3e34
+1 < set-cookie: __Host-device_id=AQA-G3TytkosnxzShLb7RfxFlBmYDnngdayMRwIIbsrfWD7BswYLuy6DdlKs45PO4VCAyehvOKkKqHxaut_RZfEnX1veH3p26WU;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: 6869f7023d217352
+1 < x-envoy-upstream-service-time: 24
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQA-G3TytkosnxzShLb7RfxFlBmYDnngdayMRwIIbsrfWD7BswYLuy6DdlKs45PO4VCAyehvOKkKqHxaut_RZfEnX1veH3p26WU;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQAMSwHH1Khltl2Oq9jnrgYniQg6ybNZgVda--V30i9o3kQHvH_Y0hSpxnKdrSwZY_vK0Kcazbzzz3j8x6ZE0fgh9_ghHPswNENu9zpNlMtf4D3GxhdNdgpAUXuQzp5uMZVX_wThxWI","token_type":"Bearer","expires_in":3600}
+
+17:00:25.695 [pool-2-thread-1] INFO  com.intuit.karate - [print] access_token BQAMSwHH1Khltl2Oq9jnrgYniQg6ybNZgVda--V30i9o3kQHvH_Y0hSpxnKdrSwZY_vK0Kcazbzzz3j8x6ZE0fgh9_ghHPswNENu9zpNlMtf4D3GxhdNdgpAUXuQzp5uMZVX_wThxWI 
+17:00:25.695 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4
+1 > Authorization: Bearer 
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.780 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 176
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < content-type: application/json
+1 < x-request-id: c0cccf3a-7942-4200-b695-eb1cf33bc009
+1 < set-cookie: __Host-device_id=AQDDyAWH9po3uRI4mwLA-A-LVFzigfOc-G9PZbg-vzoKcMsIBpljDibBLdCwoVSLfW0E_dmzbhSNzyilZdi76OrxsTtQ48erY94;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: ccf802a9b15fc121
+1 < x-envoy-upstream-service-time: 5
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQDDyAWH9po3uRI4mwLA-A-LVFzigfOc-G9PZbg-vzoKcMsIBpljDibBLdCwoVSLfW0E_dmzbhSNzyilZdi76OrxsTtQ48erY94;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQA6m45PRnCBGQzHqU5esHJ5HizJSgJ_ughQwBMCPkdBglrV27_hPyxfyhr_pbg-lKyshmc9emHvL-yiOpKQdTxFe7G-mNgiJ0DFGgvNRf34NPQPTBC8LrbGLgFB8zzWV88BuTM6usg","token_type":"Bearer","expires_in":3600}
+
+17:00:25.781 [pool-2-thread-2] INFO  com.intuit.karate - [print] access_token BQA6m45PRnCBGQzHqU5esHJ5HizJSgJ_ughQwBMCPkdBglrV27_hPyxfyhr_pbg-lKyshmc9emHvL-yiOpKQdTxFe7G-mNgiJ0DFGgvNRf34NPQPTBC8LrbGLgFB8zzWV88BuTM6usg 
+17:00:25.785 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api.spotify.com/v1/albums/2YeKV1ibuIz9JhF9Yg89w4
+1 > Authorization: null
+1 > Host: api.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:00:25.809 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 111
+1 < 401
+1 < www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < content-type: application/json
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{
+  "error": {
+    "status": 401,
+    "message": "Invalid access token"
+  }
+}
+
+17:00:25.809 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+17:00:25.809 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 137
+1 < 400
+1 < content-type: application/json; charset=utf-8
+1 < cache-control: private, max-age=0
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:25 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{"error": {"status": 400, "message": "Invalid base62 id" } }
+
+17:00:25.829 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://accounts.spotify.com/api/token
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Content-Length: 119
+1 > Host: accounts.spotify.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+grant_type=client_credentials&client_id=1bc9a0fdadf44d09a9176bdcc7555a59&client_secret=5285c3a6fd1b4d96ba0946cb7fbb4d86
+
+17:00:25.829 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 114
+1 < 400
+1 < www-authenticate: Bearer realm="spotify", error="invalid_request", error_description="Only valid bearer authentication supported"
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < content-type: application/json
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{
+  "error": {
+    "status": 400,
+    "message": "Only valid bearer authentication supported"
+  }
+}
+
+17:00:25.829 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 187
+1 < 404
+1 < content-type: application/json; charset=utf-8
+1 < cache-control: private, max-age=0
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{"error": {"status": 404, "message": "Resource not found" } }
+
+17:00:25.975 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 172
+1 < 400
+1 < www-authenticate: Bearer realm="spotify", error="invalid_request", error_description="Only valid bearer authentication supported"
+1 < access-control-allow-origin: *
+1 < access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 < access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 < access-control-allow-credentials: true
+1 < access-control-max-age: 604800
+1 < content-type: application/json
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < server: envoy
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+{
+  "error": {
+    "status": 400,
+    "message": "Only valid bearer authentication supported"
+  }
+}
+
+17:00:26.001 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 169
+1 < 200
+1 < date: Fri, 28 Feb 2025 22:00:26 GMT
+1 < content-type: application/json
+1 < x-request-id: a7450ae2-6178-4155-b7f4-422ffd393128
+1 < set-cookie: __Host-device_id=AQCBeCKhTfsDjX7QUGpX2jrMw4bt7xZZiNSHAKcGTMOX5AXRyZ1SvSBaHbeV27CFYasYV8N0CkZhj2lc341BcY0e-a2DFNAjUhI;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+1 < sp-trace-id: 6c15dfcfc124f3c0
+1 < x-envoy-upstream-service-time: 5
+1 < server: envoy
+1 < strict-transport-security: max-age=31536000
+1 < x-content-type-options: nosniff
+1 < vary: Accept-Encoding
+1 < Via: HTTP/2 edgeproxy, 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+1 < Transfer-Encoding: chunked
+1 < Set-Cookie: __Host-device_id=AQCBeCKhTfsDjX7QUGpX2jrMw4bt7xZZiNSHAKcGTMOX5AXRyZ1SvSBaHbeV27CFYasYV8N0CkZhj2lc341BcY0e-a2DFNAjUhI;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+1 < Set-Cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+{"access_token":"BQDi08BfwI6z9sew0ToxjuU-qKj9eEt3Wp_CJGbYp0lbKkIyrc36jYQJHsFefvIyNv2XMQQnrvgaK_zmDt2LmFS-0OxO_D99tn5gyFX6gG6jhcw_0bxtZ0CIdUEno3e_qkaJoTPWJHE","token_type":"Bearer","expires_in":3600}
+
+17:00:26.001 [pool-2-thread-3] INFO  com.intuit.karate - [print] access_token BQDi08BfwI6z9sew0ToxjuU-qKj9eEt3Wp_CJGbYp0lbKkIyrc36jYQJHsFefvIyNv2XMQQnrvgaK_zmDt2LmFS-0OxO_D99tn5gyFX6gG6jhcw_0bxtZ0CIdUEno3e_qkaJoTPWJHE 
+17:00:27.733 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:api/spotify/Spotify/get-album.feature
+17:00:27.811 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:api/spotify/Spotify/SpotifyAuthToKen.feature
